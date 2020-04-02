@@ -1,0 +1,87 @@
+  
+  .designContainer {
+  padding: 10px; 
+  }
+  
+  .designContainer div {
+  display: flex;
+  line-height: 30px;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px #ccc solid;
+  padding: 10px;
+  
+  box-shadow: 0 10px 30px rgba(207, 207, 223, 0.22), 0 10px 35px   rgba(139, 151, 221, 0.22);
+  font-family: 'Avenir Next', sans-serif;
+  justify-content: space-around;
+  
+  
+  }
+  
+  .siteTitle {
+  width: 650px;
+  height: 50px;
+  background-color: white;
+  justify-content: center;
+  
+  }
+  
+  .enablebutton {
+    width: 90px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10%;
+    border-width: 5px;
+    border-style: groove;
+
+  }
+  
+  .padInput {
+  position: relative;
+  height: 600px;
+  top: 50px;
+  width: 150px;
+  background-color: #d3d4bf;
+  flex-direction: row; 
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .padButton {
+    flex: 1 0 21%; 
+    margin: 5px;
+    height: 10px;
+    background-color: rgb(160, 167, 34);
+    
+    }
+  
+    .designBoard{
+      display:inline-block;
+      position: absolute;
+      left: 500px;
+      top: 350px;
+      right: 40px;
+      background-color: rgb(211, 212, 191);
+      width: 600px;
+      height: 300px;
+      padding: 20px;
+
+      }
+  
+  .designBoard div {
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .designPad {
+  background-color: white;
+  height: 250px;
+  width: 100px;
+  border: 2px #ccc solid;
+  border-radius: 10px;
+  flex: 0 0 30%; 
+  margin: 5px;
+  
+  }
+  
