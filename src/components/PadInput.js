@@ -1,5 +1,4 @@
 import React from 'react';
-import '../design.css'
 
 class PadInput extends React.Component {
      constructor(props) {
@@ -7,6 +6,7 @@ class PadInput extends React.Component {
 
      this.state = {
          padButtons: [
+
             {id: 1, color: "rgb(250, 4, 4)" },
             {id: 2, color: "rgb(248, 113, 2)" },
             {id: 3, color: "rgb(253, 249, 5"}, 
@@ -55,3 +55,4 @@ class PadInput extends React.Component {
 }
 
 export default PadInput
+
